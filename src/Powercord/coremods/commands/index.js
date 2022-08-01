@@ -43,4 +43,4 @@ module.exports = async () => {
     uninject('pc-commands-slate-autocomplete');
     uninject('pc-commands-slowmode');
   };
-}
+};
