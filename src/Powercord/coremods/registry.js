@@ -6,5 +6,6 @@ module.exports = [
   require('./utility-classes'),
   require('./react-devtools'),
   require('./i18n'),
-  require('./commands')
+  require('./commands'),
+  require('./settings')
 ];
