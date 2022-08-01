@@ -7,5 +7,6 @@ module.exports = [
   require('./react-devtools'),
   require('./i18n'),
   require('./commands'),
-  require('./settings')
+  require('./settings'),
+  require('./notices')
 ];
