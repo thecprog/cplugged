@@ -9,4 +9,5 @@ module.exports = [
   require('./commands'),
   require('./settings'),
   require('./notices')
+  // require('./connections')
 ];
