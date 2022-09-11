@@ -22,19 +22,19 @@ module.exports = class DonateModal extends React.PureComponent {
         <div className='powercord-donate-tier'>
           <div className='details'>
             <span className='price'>{Messages.REPLUGGED_CUTIE_TIER_1_PRICE.format()}</span>
-            <span className='perk'>{Messages.REPLUGGED_CUTIE_TIER_1_DESC.format()}</span>
+            <span className='perk'>{Messages.REPLUGGED_CUTIE_TIER_1_DESC}</span>
           </div>
         </div>
         <div className='powercord-donate-tier'>
           <div className='details'>
             <span className='price'>{Messages.REPLUGGED_CUTIE_TIER_2_PRICE.format()}</span>
-            <span className='perk'>{Messages.REPLUGGED_CUTIE_TIER_2_DESC.format()}</span>
+            <span className='perk'>{Messages.REPLUGGED_CUTIE_TIER_2_DESC}</span>
           </div>
         </div>
         <div className='powercord-donate-tier'>
           <div className='details'>
             <span className='price'>{Messages.REPLUGGED_CUTIE_TIER_3_PRICE.format()}</span>
-            <span className='perk'>{Messages.REPLUGGED_CUTIE_TIER_3_DESC.format()}</span>
+            <span className='perk'>{Messages.REPLUGGED_CUTIE_TIER_3_DESC}</span>
           </div>
         </div>
       </Modal.Content>
