@@ -20,36 +20,26 @@ module.exports = class DonateModal extends React.PureComponent {
         <h3 className='powercord-donate-title'>{Messages.REPLUGGED_CUTIE_TITLE}</h3>
         <h4 className='powercord-donate-subtitle'>{Messages.REPLUGGED_CUTIE_SUBTITLE}</h4>
         <div className='powercord-donate-tier'>
-          <img className='icon' src='https://cdn.discordapp.com/emojis/396521773115637780.png' alt='Tier 1'/>
           <div className='details'>
             <span className='price'>{Messages.REPLUGGED_CUTIE_TIER_1_PRICE.format()}</span>
             <span className='perk'>{Messages.REPLUGGED_CUTIE_TIER_1_DESC.format()}</span>
           </div>
         </div>
         <div className='powercord-donate-tier'>
-          <img className='icon' src='https://cdn.discordapp.com/emojis/580597913512574976.png' alt='Tier 2'/>
           <div className='details'>
             <span className='price'>{Messages.REPLUGGED_CUTIE_TIER_2_PRICE.format()}</span>
             <span className='perk'>{Messages.REPLUGGED_CUTIE_TIER_2_DESC.format()}</span>
           </div>
         </div>
         <div className='powercord-donate-tier'>
-          <img className='icon' src='https://cdn.discordapp.com/emojis/583258319150645248.png' alt='Tier 3'/>
           <div className='details'>
             <span className='price'>{Messages.REPLUGGED_CUTIE_TIER_3_PRICE.format()}</span>
             <span className='perk'>{Messages.REPLUGGED_CUTIE_TIER_3_DESC.format()}</span>
           </div>
         </div>
-        {this.state.easterEgg && <div className='powercord-donate-tier'>
-          <img className='icon' src='https://cdn.discordapp.com/emojis/404298286699249664.png' alt='Tier Infinite'/>
-          <div className='details'>
-            <span className='price'>{Messages.REPLUGGED_CUTIE_TIER_EASTER_PRICE.format()}</span>
-            <span className='perk'>{Messages.REPLUGGED_CUTIE_TIER_EASTER_DESC.format()}</span>
-          </div>
-        </div>}
       </Modal.Content>
       <Modal.Footer>
-        <a href='https://patreon.com/aetheryx' target='_blank'>
+        <a href='https://patreon.com/replugged' target='_blank'>
           <Button onClick={() => closeModal()}>{Messages.REPLUGGED_CUTIE_DONATE}</Button>
         </a>
         <Button
